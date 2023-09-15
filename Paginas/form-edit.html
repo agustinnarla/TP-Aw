@@ -4,22 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=../Styles/style.css />
+    <link rel="stylesheet" href="/Style/style.css" />
     <title>Edit</title>
 </head>
 
 <body>
     <header>
-        <h1 id="title-edit">Editar perfil</h1>
-        <img id="logo-user" src="Imagenes/Avengers-Logo.jpg" alt="Avengers-Logo"><br>
-        <a id="Cambiar" href="img.html">
+        <h1 class="title_edie">Editar perfil</h1>
+        <img class="logo_edit" src="/Imagenes/Avengers-Logo.jpg" alt="Avengers-Logo"><br>
+        <a class="cambiar_edit" href="img.html">
             <button>
                 Cambiar
             </button>
         </a>
     </header>
     <main>
-        <form id="form" action="./catalogo.html" method="post">
+        <form class="form_edit" action="./catalogo.html" method="post">
             <label for="Users">Usuario</label>
             <input type="text" id="Id-users" name="users">
             <br>
@@ -36,10 +36,19 @@
             </select>
             <br>
             <label for="Ping">Ping de la cuenta</label>
-            <a id="management" href="">
+        </form>
+        <nav class="option_edit">
+            <a class="management" href="">
                 <button>Gestion</button>
             </a>
-        </form>
+            <a href="users.html">
+                <button>Aceptar</button>
+            </a>
+            <a href="select-edit.html">
+                <button>Volver</button>
+            </a>
+        </nav>
+
     </main>
 </body>
 

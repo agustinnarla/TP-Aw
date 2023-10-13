@@ -8,36 +8,42 @@
     <title>Edit</title>
 </head>
 
-<body>
-    <header>
-        <h1 class="title_edie">Editar perfil</h1>
-        <img class="logo_edit" src="/Imagenes/Avengers-Logo.jpg" alt="Avengers-Logo"><br>
-        <a class="cambiar_edit" href="img.html">
-            <button>
-                Cambiar
-            </button>
-        </a>
+<body class="edit">
+    <header class="edit_header">
+        <div class="edit_title">
+            <h1>Editar perfil</h1>
+        </div>
     </header>
-    <main>
-        <form class="form_edit" action="./catalogo.html" method="post">
-            <label for="Users">Usuario</label>
-            <input type="text" id="Id-users" name="users">
-            <br>
-            <label for="Language">Lenguaje</label>
-            <select name="language" id="Id-language">
-                <option value="Aleman">Aleman</option>
-                <option value="Español_Esp">Español de España</option>
-                <option value="Español_Lan">Español de Latinoamerica</option>
-                <option value="Frances">Frances</option>
-                <option value="Ingles">Ingles</option>
-                <option value="Italiano">Italiano</option>
-                <option value="Polaco">Polaco</option>
-                <option value="Portugues">Portugues</option>
-            </select>
-            <br>
-            <label for="Ping">Ping de la cuenta</label>
-        </form>
-        <nav class="option_edit">
+    <main class="edit_main">
+        <section class="edit_inicio">
+            <div class="edit_logo">
+                <img src="/Imagenes/Avengers-Logo.jpg" alt="Avengers-Logo"><br>
+                <a href="img.html">
+                    <button>
+                        Cambiar
+                    </button>
+                </a>
+            </div>
+            <form class="edit_form" action="./catalogo.html" method="post">
+                <label for="Users">Usuario</label>
+                <input type="text" id="id-users" name="users">
+                <br>
+                <label for="Language">Lenguaje</label>
+                <select name="language" id="Id-language">
+                    <option value="Aleman">Aleman</option>
+                    <option value="Español_Esp">Español de España</option>
+                    <option value="Español_Lan">Español de Latinoamerica</option>
+                    <option value="Frances">Frances</option>
+                    <option value="Ingles">Ingles</option>
+                    <option value="Italiano">Italiano</option>
+                    <option value="Polaco">Polaco</option>
+                    <option value="Portugues">Portugues</option>
+                </select>
+                <br>
+                <label for="Ping">Ping de la cuenta</label>
+            </form>
+        </section>
+        <nav class="edit_options">
             <a class="management" href="">
                 <button>Gestion</button>
             </a>
@@ -48,8 +54,22 @@
                 <button>Volver</button>
             </a>
         </nav>
-
     </main>
+    <footer>
+        <section class="footer">
+            <ul class="links">
+                <li><a href="">Politica de privacidad</a></li>
+                <li><a href="">Información</a></li>
+                <li><a href="">Terminos de Usos</a></li>
+            </ul>
+            <div class="redes">
+                <a href=""><img src="../Imagenes/bxl-youtube.png" alt="bxl-youtube"></a>
+                <a href=""><img src="../Imagenes/bxl-instagram.png" alt="bxl-instagram"></a>
+                <a href=""><img src="../Imagenes/bxl-facebook-circle.png" alt="bxl-facebook-circle"></a>
+                <a href=""><img src="../Imagenes/bxl-twitter.png" alt="bxl-twitter"></a>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>

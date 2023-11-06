@@ -62,10 +62,24 @@
 
 // }
 
+// Definición del objeto Pelicula
+let Pelicula = {
+    titulo: "Título de la Película",
+    director: "Director de la Película",
+    año: 2023,
+    genero: "Género de la Película",
+    duracion: 120,
+    sinopsis: "Sinopsis de la Película",
+    calificacion: 4.5,
+    actores: ["Actor 1", "Actor 2", "Actor 3"],
+    trailerURL: "https://www.youtube.com/watch?v=12345",
+    imagenURL: "imagen-pelicula.jpg",
+};
+
 const catalogo = {
     nombre: "messi",
     balones: 8,
-    articulos:[
+    articulos: [
         {
             nombre: "Robert",
             precio: "20 pe"

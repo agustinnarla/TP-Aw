@@ -24,67 +24,58 @@
 //     ]
 // }
 
-// const objPeliculas = {
-//     peliculas: [
-//         {
-//             nombre: "Harry potter ",
-//             descripcion: "Harry potter blablalbal",
-//              genero: "Fantasia, Magia"
-//              img: "./asdhkjashdkasd"
-//              link: "https://"
-//         },
-
-//         {
-//             nombre: "Da vinci ",
-//             descripcion: "Mi amigo david blablalbal",
-//             genero: "Suspenso, Historia"
-//         },
-
-//         {
-//             nombre: "Harry potter ",
-//             descripcion: "Harry potter blablalbal",
-//             genero: "Fantasia, Magia"
-//         },
-
-//         {
-//             nombre: "Harry potter ",
-//             descripcion: "Harry potter blablalbal",
-//             genero: "Fantasia, Magia"
-//         },
-
-//         {
-//             nombre: "Harry potter ",
-//             descripcion: "Harry potter blablalbal",
-//             genero: "Fantasia, Magia"
-//         }
-
-//     ]
-
-// }
-
-// Definición del objeto Pelicula
-let Pelicula = {
-    titulo: "Título de la Película",
-    director: "Director de la Película",
-    año: 2023,
-    genero: "Género de la Película",
-    duracion: 120,
-    sinopsis: "Sinopsis de la Película",
-    calificacion: 4.5,
-    actores: ["Actor 1", "Actor 2", "Actor 3"],
-    trailerURL: "https://www.youtube.com/watch?v=12345",
-    imagenURL: "imagen-pelicula.jpg",
-};
-
-const catalogo = {
-    nombre: "messi",
-    balones: 8,
-    articulos: [
+const objPeliculas = {
+    peliculas: [
         {
-            nombre: "Robert",
-            precio: "20 pe"
+             nombre: "Harry potter ",
+             descripcion: "Harry potter blablalbal",
+             genero: "Fantasia, Magia",
+             img: "./asdhkjashdkasd",
+             link: "https://"
+        },
+
+        {
+             nombre: "Da vinci ",
+             descripcion: "Mi amigo david blablalbal",
+             genero: "Suspenso, Historia",
+             img: "./asdhkjashdkasd",
+             link: "https://"
+
+        },
+
+        {
+             nombre: "Harry potter ",
+             descripcion: "Harry potter blablalbal",
+             genero: "Fantasia, Magia",
+             img: "./asdhkjashdkasd",
+             link: "https://"
+        },
+
+        {
+            nombre: "Harry potter ",
+            descripcion: "Harry potter blablalbal",
+             genero: "Fantasia, Magia",
+             img: "./asdhkjashdkasd",
+             link: "https://"
+        },
+
+        {
+             nombre: "Harry potter ",
+             descripcion: "Harry potter blablalbal",
+             genero: "Fantasia, Magia",
+             img: "./asdhkjashdkasd",
+             link: "https://"
         }
+
     ]
+
 }
 
-export default catalogo
+
+
+//Carga de contenidos 
+    //Ejemplo -- Peliculas, Series 
+//Muestreo 
+    //Darle click a peliculas, se me muestre las peliculas 
+//Evento click de trailer  
+    //click en serie/pelicula y mostrar trailer, youtube? 

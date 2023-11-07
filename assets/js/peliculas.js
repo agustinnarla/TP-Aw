@@ -1,28 +1,3 @@
-// const objetousuarios = {
-//     perfiles: [
-//         {
-//             perfil: 1,
-//             nombre: "Agus"
-//         },
-//         {
-//             perfil: 2,
-//             nombre: "Valen"
-//         },
-//         {
-//             perfil: 3,
-//             nombre: "Roberto"
-
-//         },
-//         {
-//             perfil: 4,
-//             nombre: "Maluma"
-//         },
-//         {
-//             perfil: 5,
-//             nombre: "Francis"
-//         }
-//     ]
-// }
 
 const objPeliculas = {
     peliculas: [
@@ -31,16 +6,30 @@ const objPeliculas = {
              descripcion: "Harry potter blablalbal",
              genero: "Fantasia, Magia",
              img: "./asdhkjashdkasd",
-             link: "https://"
+             link: "https://",
+             duracion: 120
+            
+
         },
 
         {
              nombre: "Da vinci ",
              descripcion: "Mi amigo david blablalbal",
              genero: "Suspenso, Historia",
-             img: "./asdhkjashdkasd",
-             link: "https://"
+             img: "./imagenes/peliculas/1b9f12fee869c95d85c06c1c32fb08e3.jpg",
+             link: "https://",
+             duracion: 120
+           
+        },
 
+        {
+             nombre: "Harry potter ",
+             descripcion: "Harry potter blablalbal",
+             genero: "Fantasia, Magia",
+             img: "./imagenes/peliculas/1b9f12fee869c95d85c06c1c32fb08e3.jpg",
+             link: "https://",
+             duracion: 120
+           
         },
 
         {
@@ -48,15 +37,9 @@ const objPeliculas = {
              descripcion: "Harry potter blablalbal",
              genero: "Fantasia, Magia",
              img: "./asdhkjashdkasd",
-             link: "https://"
-        },
-
-        {
-            nombre: "Harry potter ",
-            descripcion: "Harry potter blablalbal",
-             genero: "Fantasia, Magia",
-             img: "./asdhkjashdkasd",
-             link: "https://"
+             link: "https://",
+             duracion: 120
+             
         },
 
         {
@@ -64,13 +47,14 @@ const objPeliculas = {
              descripcion: "Harry potter blablalbal",
              genero: "Fantasia, Magia",
              img: "./asdhkjashdkasd",
-             link: "https://"
+             link: "https://",
+             duracion: 120
+          
         }
-
     ]
-
 }
 
+export default objPeliculas
 
 
 //Carga de contenidos 

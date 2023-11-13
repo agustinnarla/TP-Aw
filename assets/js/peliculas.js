@@ -3,52 +3,52 @@ const objPeliculas = {
     peliculas: [
         {
              nombre: "Harry potter ",
-             descripcion: "Harry potter blablalbal",
-             genero: "Fantasia, Magia",
-             img: "./asdhkjashdkasd",
-             link: "https://",
-             duracion: 120
+             descripcion: "Harry potter ...........",
+             genero: "Fantasia,Aventura",
+             img: "./assets/imagenes/peliculas/harryPotter.jpg",
+             link: "https://www.youtube.com/watch?v=ZgrCZVjPg9g",
+             duracion: 152
             
 
         },
 
         {
-             nombre: "Da vinci ",
-             descripcion: "Mi amigo david blablalbal",
-             genero: "Suspenso, Historia",
-             img: "./imagenes/peliculas/1b9f12fee869c95d85c06c1c32fb08e3.jpg",
-             link: "https://",
-             duracion: 120
+             nombre: "El codigo de Da Vinci",
+             descripcion: "El codigo de da vinci ............",
+             genero: "Espionaje,Religion",
+             img: "./assets/imagenes/peliculas/elCodigoDeDaVinci.jpg",
+             link: "https://www.youtube.com/watch?v=5sU9MT8829k",
+             duracion: 148
            
         },
 
         {
-             nombre: "Harry potter ",
-             descripcion: "Harry potter blablalbal",
-             genero: "Fantasia, Magia",
-             img: "./imagenes/peliculas/1b9f12fee869c95d85c06c1c32fb08e3.jpg",
-             link: "https://",
-             duracion: 120
+             nombre: "Thor",
+             descripcion: "Thor ............",
+             genero: "Superheroes, accion",
+             img: "./assets/imagenes/peliculas/thor.jpg",
+             link: "https://www.youtube.com/watch?v=JOddp-nlNvQ",
+             duracion: 115
            
         },
 
         {
-             nombre: "Harry potter ",
+             nombre: "Iron man",
              descripcion: "Harry potter blablalbal",
-             genero: "Fantasia, Magia",
-             img: "./asdhkjashdkasd",
-             link: "https://",
-             duracion: 120
+             genero: "Superheroes, Accion",
+             img: "./assets/imagenes/peliculas/ironMan.jpg",
+             link: "https://www.youtube.com/watch?v=7DC9Lqi7b6U",
+             duracion: 126
              
         },
 
         {
-             nombre: "Harry potter ",
+             nombre: "Joker",
              descripcion: "Harry potter blablalbal",
-             genero: "Fantasia, Magia",
-             img: "./asdhkjashdkasd",
-             link: "https://",
-             duracion: 120
+             genero: "Drama, Suspenso",
+             img: "./assets/imagenes/peliculas/joker.jpg",
+             link: "https://www.youtube.com/watch?v=TobNCFMK_bs",
+             duracion: 122
           
         }
     ]

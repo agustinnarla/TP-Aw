@@ -54,15 +54,15 @@ main {
     text-decoration: underline;
 }
 
-.login_title,
-.sign-up_title {
+.login-title,
+.sign-up__title {
     padding: 10%;
 }
 
 /*LOGIN AND SIGN-UP*/
 .login::before,
 .sign-up::before {
-    background-image: url(/Imagenes/Fondo.jpeg);
+    background-image: url(../imagenes/fondo/Fondo.jpeg);
     content: "";
     opacity: 0.4;
     position: absolute;
@@ -74,7 +74,7 @@ main {
     background-repeat: repeat;
 }
 
-.login_main {
+.login-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,41 +83,41 @@ main {
     margin-top: -300px;
 }
 
-.login_inicio,
-.sign-up_inicio,
-.edit_inicio {
+.login-inicio,
+.sign-up__inicio,
+.edit-inicio {
     border: 2px solid black;
     border-radius: 10px;
     padding: 100px;
     background-color: rgb(0, 0, 0, 0.5);
 }
 
-.login_title_inicio,
-.sign-up_title_form {
+.login-title__inicio,
+.sign-up__title__form {
     color: white;
     margin-top: -100px;
     margin-bottom: 20px;
 }
 
-.login_form,
-.sign-up_form,
-.edit_form {
+.login-form,
+.sign-up__form,
+.edit-form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.login_form label,
-.sign-up_form label,
-.edit_form label {
+.login-form label,
+.sign-up__form label,
+.edit-form label {
     font-weight: bold;
     margin-bottom: 5px;
     color: white;
 }
 
-.login_form input,
-.sign-up_form input,
-.edit_form input {
+.login-form input,
+.sign-up__form input,
+.edit-form input {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid white;
@@ -126,17 +126,17 @@ main {
     transition: all 0.3s ease;
 }
 
-.login_form input:focus,
-.sign-up_form input:focus,
-.edit_form input:focus,
-.edit_form select:focus {
+.login-form input:focus,
+.sign-up__form input:focus,
+.edit-form input:focus,
+.edit-form select:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-.login_form button,
-.sign-up_form button {
+.login-form button,
+.sign-up__form button {
     cursor: pointer;
     padding: 10px;
     border: none;
@@ -147,35 +147,35 @@ main {
     transition: background 0.3s ease;
 }
 
-.login_form button:hover,
-.sign-up_form button:hover {
+.login-form button:hover,
+.sign-up__form button:hover {
     background: rgba(153, 29, 29, 0.8);
 }
 
-.login_links {
+.login-links {
     margin-top: 10px;
 
 }
 
-.login_links a {
+.login-links a {
     display: block;
     margin: 5px 0;
     color: white;
     text-decoration: none;
 }
 
-.login_links a:hover {
+.login-links a:hover {
     text-decoration: underline;
 }
 
 /*SIGN-UP*/
 
-.sign-up_title {
+.sign-up__title {
     margin-top: -200px;
 }
 
 
-.sign-up_main {
+.sign-up__main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,22 +184,22 @@ main {
     margin-top: -150px;
 }
 
-.sign-up_header {
+.sign-up__header {
     margin-top: 50px
 }
 
 /*USERS, ADMIN AND EDIT*/
 
-.users_header,
-.edit_header,
-.home_header {
+.users-header,
+.edit-header,
+.home-header {
     padding: 50px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 
-.users_main,
-.admin_main {
+.users-main,
+.admin-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,31 +208,31 @@ main {
 }
 
 
-.users_title_two,
-.admin_title {
+.users-title__two,
+.admin-title {
     font-size: 24px;
     margin-bottom: 40px;
     color: white;
 }
 
-.users_contenido,
-.admin_content {
+.users-contenido,
+.admin-content {
     width: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.users_user,
-.admin_user {
+.users-user,
+.admin-user {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
 }
 
-.users_user a,
-.admin_user a {
+.users-user a,
+.admin-user a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,9 +242,9 @@ main {
     transition: transform 0.3s ease;
 }
 
-.users_user img,
-.admin_user img,
-.edit_logo img {
+.users-user img,
+.admin-user img,
+.edit-logo img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -254,21 +254,21 @@ main {
     transition: transform 0.3s ease;
 }
 
-.users_user a:hover,
-.admin_user a:hover {
+.users-user a:hover,
+.admin-user a:hover {
     transform: scale(1.1);
 }
 
 
-.users_admin,
-.admin_back {
+.users-admin,
+.admin-back {
     margin-top: 50px;
 }
 
-.users_admin a,
-.admin_back a,
-.edit_options button,
-.edit_logo button {
+.users-admin a,
+.admin-back a,
+.edit-options button,
+.edit-logo button {
     padding: 10px 30px;
     background-color: transparent;
     border: 2px solid white;
@@ -277,15 +277,15 @@ main {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.users_admin a:hover,
-.admin_back a:hover {
+.users-admin a:hover,
+.admin-back a:hover {
     background-color: white;
     color: #141414;
 }
 
 /*EDIT*/
 
-.edit_header {
+.edit-header {
     color: white;
 }
 
@@ -295,14 +295,14 @@ main {
     gap: 30px;
 }
 
-.edit_options button:hover,
-.edit_logo button:hover {
+.edit-options button:hover,
+.edit-logo button:hover {
     background-color: white;
     color: black;
 }
 
 
-.edit_form select {
+.edit-form select {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid white;
@@ -311,7 +311,7 @@ main {
     transition: all 0.3s ease;
 }
 
-.edit_main {
+.edit-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -323,26 +323,26 @@ main {
 /*LOGO*/
 
 
-.img_title {
+.img-title {
     font-size: 24px;
     color: white;
     margin-top: 50px;
 }
 
-.img_main {
+.img-main {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 2px solid white;
 }
 
-.img_content {
+.img-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.img_logo {
+.img-logo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -351,55 +351,55 @@ main {
     text-align: center;
 }
 
-.img_logo h2 {
+.img-logo h2 {
     grid-column: 1 / 4;
     margin-top: 40px;
     font-size: 24px;
     color: white;
 }
 
-.img_logo img {
+.img-logo img {
     width: 100%;
     max-width: 200px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
-.img_logo img:hover {
+.img-logo img:hover {
     transform: scale(1.1);
 }
 
 /*HOME*/
 
-
-
-.home_content a {
+.home-content a {
     margin: 0 10px;
     color: white;
     text-decoration: none;
 }
 
-.home_catalogo {
+.home-catalogo {
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.home_catalogo>div {
+.home-catalogo>div {
     overflow-x: auto;
     white-space: nowrap;
     margin-bottom: 20px;
 }
 
-.home_catalogo img {
-    max-height: 200px;
+.home-catalogo img {
+    max-height: 250px;
     width: auto;
     margin-right: 10px;
     transition: transform 0.3s;
     cursor: pointer;
 }
 
-.home_catalogo img:hover {
-    transform: scale(1.1);
+.home-catalogo img:hover {
+    transform: scale(1.03);
 }
 
 /*RESPONSIVE*/
@@ -407,41 +407,41 @@ main {
 
 @media (max-width: 768px) {
 
-    .login_main,
-    .sign-up_main,
-    .users_main,
-    .admin_main,
-    .edit_main {
+    .login-main,
+    .sign-up__main,
+    .users-main,
+    .admin-main,
+    .edit-main {
         flex-direction: column;
         margin-top: 0;
     }
 
 
-    .login_title_inicio,
-    .sign-up_title_form,
-    .users_title_two,
-    .admin_title {
+    .login-title_inicio,
+    .sign-up__title__form,
+    .users-title__two,
+    .admin-title {
         font-size: 1.5em;
     }
 
 
-    .login_inicio,
-    .sign-up_inicio,
-    .edit_inicio {
+    .login-inicio,
+    .sign-up__inicio,
+    .edit-inicio {
         padding: 50px;
     }
 
-    .login_form,
-    .sign-up_form,
-    .edit_form {
+    .login-form,
+    .sign-up__form,
+    .edit-form {
         gap: 15px;
     }
 
-    .img_logo {
+    .img-logo {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .home_catalogo img {
+    .home-catalogo img {
         margin: 10px 5px;
     }
 }

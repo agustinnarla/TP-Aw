@@ -1,22 +1,18 @@
-import objPeliculas from "./peliculas.js"
+import objPeliculas from "./peliculas.js";
 
 
-
-const contenedor = document.getElementById("catalogo")
-
-contenedor.innerHTML = "hola pelis"
+const contenedor = document.getElementById("catalogo");
 
 let contenidoHtml = ``;
 
-objPeliculas.peliculas.forEach((imagen) => {
+objPeliculas.peliculas.forEach((pelicula, index) => {
   contenidoHtml += `
-      <div class="box0">
-        <img src=""${imagen.img}"" alt="" class="box-0-1">
-      </div>
-      <div class="box1">
-        <img src="${imagen.img}" alt="" class="box-1-1">
-      </div>`
+      <div class="box0" onclick="verTrailer(${index})">
+        <img src="${pelicula.img}" alt="${pelicula.nombre}" class="box-0-1">
+      </div>`;
+});
 
-})
+contenedor.innerHTML = contenidoHtml;
 
-contenedor.innerHTML = contenidoHtml
+
+

@@ -404,44 +404,114 @@ main {
 
 /*RESPONSIVE*/
 
-
 @media (max-width: 768px) {
 
-    .login-main,
-    .sign-up__main,
-    .users-main,
-    .admin-main,
-    .edit-main {
-        flex-direction: column;
-        margin-top: 0;
+
+    .sign-up__form {
+        width: 90%;
+        max-width: none;
+    }
+
+    .sign-up__header {
+        padding: 10px;
+    }
+
+    .title-not {
+        font-size: 1.5em;
+    }
+
+    .sign-up__title__form {
+        font-size: 1.2em;
+    }
+
+    .sign-up__main {
+        padding: 10px;
     }
 
 
-    .login-title_inicio,
-    .sign-up__title__form,
-    .users-title__two,
+    .users-title__two {
+        font-size: 1.2em;
+    }
+
+    .users-user a {
+        margin: 10px 5px;
+    }
+
+    .users-user img {
+        width: 80px;
+        height: 80px;
+    }
+
     .admin-title {
         font-size: 1.5em;
     }
 
-
-    .login-inicio,
-    .sign-up__inicio,
-    .edit-inicio {
-        padding: 50px;
-    }
-
-    .login-form,
-    .sign-up__form,
-    .edit-form {
-        gap: 15px;
-    }
-
-    .img-logo {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .home-catalogo img {
+    .admin-user a {
         margin: 10px 5px;
+    }
+
+    .admin-user img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .edit-logo img {
+        width: 150px;
+    }
+
+    .edit-logo,
+    .edit-form {
+        margin-bottom: 20px;
+    }
+
+
+    .edit-options a {
+        margin: 10px 0;
+    }
+
+    .edit-header {
+        font-size: 1.5em;
+    }
+
+    .edit-options {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .edit-form select {
+        width: 80%;
+        border-radius: 3px;
+        border: none;
+    }
+
+    .home-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+}
+
+
+@media (max-width: 1481px) {
+    .sign-up__form {
+        width: 90%;
+        max-width: none;
+    }
+
+    .sign-up__header {
+        padding: 10px;
+    }
+
+    .title-not {
+        font-size: 1.5em;
+    }
+
+    .sign-up__title__form {
+        font-size: 1.2em;
+    }
+
+    .sign-up__main {
+        padding: 10px;
     }
 }
